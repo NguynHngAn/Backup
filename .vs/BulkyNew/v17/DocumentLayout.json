@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\source\\repos\\bulkynew\\bulkynew\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\downloads\\asp\\backup\\bulkynew\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|solutionrelative:bulkynew\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\downloads\\asp\\backup\\bulkynew\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|solutionrelative:bulkynew\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\source\\repos\\bulkynew\\bulkynew\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\downloads\\asp\\backup\\bulkynew\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|solutionrelative:bulkynew\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|c:\\users\\acer\\downloads\\asp\\backup\\bulkynew\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5D47235-6856-4983-A906-265BA6D5E13D}|BulkyNew\\BulkyBookNew.csproj|solutionrelative:bulkynew\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,29 +46,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BulkyNew\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.Development.json",
+              "RelativeToolTip": "BulkyNew\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T02:59:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "BulkyNew\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.Production.json",
+              "RelativeToolTip": "BulkyNew\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T02:59:38.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\BulkyNew\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.json",
               "RelativeDocumentMoniker": "BulkyNew\\appsettings.json",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\BulkyNew\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\appsettings.json",
               "RelativeToolTip": "BulkyNew\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-14T07:33:55.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeToolTip": "BulkyNew\\Areas\\Admin\\Controllers\\OrderController.cs",
               "ViewState": "AQIAAI0AAAAAAAAAAAAIwKcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T07:20:17.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T07:20:17.833Z"
             }
           ]
         }

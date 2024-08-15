@@ -10039,11 +10039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
       "projectName": "BulkyBook.DataAccess",
-      "projectPath": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectPath": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10061,11 +10061,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.Models\\BulkyBook.Models.csproj"
+            "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.Models\\BulkyBook.Models.csproj"
             },
-            "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "C:\\Users\\ACER\\source\\repos\\BulkyNew\\Bulky.Utility\\BulkyBook.Utility.csproj"
+            "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Downloads\\ASP\\Backup\\Bulky.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }
