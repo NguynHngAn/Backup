@@ -137,7 +137,7 @@ namespace BulkyBookNew.Areas.Admin.Controllers
             OrderVM.OrderDetail = _unitOfWork.OrderDetail
                 .GetAll(u => u.OrderHeaderId == OrderVM.OrderHeader.Id, includeProperties: "Product");
 
-            // stripe logic
+            //stripe logic
             var domain = Request.Scheme + "://" + Request.Host.Value + "/";
             var options = new SessionCreateOptions
             {
@@ -153,7 +153,7 @@ namespace BulkyBookNew.Areas.Admin.Controllers
                 {
                     PriceData = new SessionLineItemPriceDataOptions
                     {
-                        UnitAmount = (long)(item.Price * 100), //$20.50 => 2500
+                        UnitAmount = (long)(item.Price * 100), // $20.50 => 2050
                         Currency = "usd",
                         ProductData = new SessionLineItemPriceDataProductDataOptions
                         {
@@ -165,22 +165,23 @@ namespace BulkyBookNew.Areas.Admin.Controllers
                 options.LineItems.Add(sessionLineItem);
             }
 
+
             var service = new SessionService();
             Session session = service.Create(options);
-
             _unitOfWork.OrderHeader.UpdateStripePaymentID(OrderVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
             _unitOfWork.Save();
-
             Response.Headers.Add("Location", session.Url);
             return new StatusCodeResult(303);
         }
 
         public IActionResult PaymentConfirmation(int orderHeaderId)
         {
+
             OrderHeader orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == orderHeaderId);
             if (orderHeader.PaymentStatus == SD.PaymentStatusDelayedPayment)
             {
-                // this is an order by a company
+                //this is an order by company
+
                 var service = new SessionService();
                 Session session = service.Get(orderHeader.SessionId);
 
@@ -190,8 +191,9 @@ namespace BulkyBookNew.Areas.Admin.Controllers
                     _unitOfWork.OrderHeader.UpdateStatus(orderHeaderId, orderHeader.OrderStatus, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
-            }
 
+
+            }
 
 
             return View(orderHeaderId);
