@@ -207,12 +207,14 @@ namespace BulkyBookNew.Areas.Admin.Controllers
         {
             IEnumerable<OrderHeader> objOrderHeaders;
 
+
             if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
             {
                 objOrderHeaders = _unitOfWork.OrderHeader.GetAll(includeProperties: "ApplicationUser").ToList();
             }
             else
             {
+
                 var claimsIdentity = (ClaimsIdentity)User.Identity;
                 var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
@@ -235,8 +237,9 @@ namespace BulkyBookNew.Areas.Admin.Controllers
                 case "approved":
                     objOrderHeaders = objOrderHeaders.Where(u => u.OrderStatus == SD.StatusApproved);
                     break;
-                case "all":
+                default:
                     break;
+
             }
 
 
